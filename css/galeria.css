@@ -1,0 +1,93 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: green;
+}
+
+h1 {
+  color: #52796f; /* Verde más oscuro */
+  text-align: center;
+  margin-top: 30px;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+.carousel {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.carousel-inner {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.carousel-item {
+  text-align: center;
+  background-color: #a9e6a16e; /* Verde pastel más claro */
+  position: relative;
+}
+
+.carousel-item img {
+  border-radius: 30px; /* Reducimos el radio de la esquina */
+  width: 60%; /* Ajustamos el ancho de la imagen */
+}
+
+.description {
+  background-color: rgba(255, 255, 255, 0.668);
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: -70px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.carousel-item:hover .description {
+  opacity: 1;
+}
+
+h3 {
+  color: #336b5e; /* Verde pastel más oscuro */
+}
+
+h2 {
+  color: #5e7d71; /* Verde pastel medio */
+  text-align: center;
+}
+
+a {
+  color: #4e8a7d; /* Verde pastel más oscuro */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 5%;
+  color: #4e8a7d; /* Verde pastel más oscuro */
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+  color: #336b5e; /* Verde pastel más oscuro */
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #4e8a7d; /* Verde pastel más oscuro */
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.visually-hidden {
+  display: none;
+}
